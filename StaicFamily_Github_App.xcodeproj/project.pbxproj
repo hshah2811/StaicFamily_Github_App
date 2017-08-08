@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF8A9D2F1F399D0E00EFEF49 /* libStaticFamily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */; };
 		EFC24B571F37578A00C9200C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC24B561F37578A00C9200C /* AppDelegate.swift */; };
 		EFC24B591F37578A00C9200C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC24B581F37578A00C9200C /* ViewController.swift */; };
 		EFC24B5C1F37578A00C9200C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC24B5A1F37578A00C9200C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStaticFamily.a; path = "../DerivedData/Build/Products/Debug-iphonesimulator/libStaticFamily.a"; sourceTree = "<group>"; };
 		EFC24B531F37578A00C9200C /* StaicFamily_Github_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaicFamily_Github_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC24B561F37578A00C9200C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC24B581F37578A00C9200C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8A9D2F1F399D0E00EFEF49 /* libStaticFamily.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF8A9D2D1F399D0E00EFEF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EFC24B4A1F37578A00C9200C = {
 			isa = PBXGroup;
 			children = (
 				EFC24B551F37578A00C9200C /* StaicFamily_Github_App */,
 				EFC24B6A1F37578A00C9200C /* StaicFamily_Github_AppTests */,
 				EFC24B541F37578A00C9200C /* Products */,
+				EF8A9D2D1F399D0E00EFEF49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
