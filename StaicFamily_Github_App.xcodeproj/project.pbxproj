@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF76385F1F3B53F500BFD880 /* libStaticFamily.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */; };
+		EF7638601F3B54BA00BFD880 /* libStaticFamily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */; };
 		EF8A9D2F1F399D0E00EFEF49 /* libStaticFamily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */; };
 		EFC24B571F37578A00C9200C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC24B561F37578A00C9200C /* AppDelegate.swift */; };
 		EFC24B591F37578A00C9200C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC24B581F37578A00C9200C /* ViewController.swift */; };
@@ -25,6 +27,19 @@
 			remoteInfo = StaicFamily_Github_App;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF76385E1F3B53E700BFD880 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF76385F1F3B53F500BFD880 /* libStaticFamily.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EF8A9D2E1F399D0E00EFEF49 /* libStaticFamily.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStaticFamily.a; path = "../DerivedData/Build/Products/Debug-iphonesimulator/libStaticFamily.a"; sourceTree = "<group>"; };
@@ -53,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7638601F3B54BA00BFD880 /* libStaticFamily.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +151,7 @@
 				EFC24B631F37578A00C9200C /* Sources */,
 				EFC24B641F37578A00C9200C /* Frameworks */,
 				EFC24B651F37578A00C9200C /* Resources */,
+				EF76385E1F3B53E700BFD880 /* CopyFiles */,
 			);
 			buildRules = (
 			);

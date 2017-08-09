@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import StaticFamily
 @testable import StaicFamily_Github_App
 
 class StaicFamily_Github_AppTests: XCTestCase {
@@ -22,6 +23,10 @@ class StaicFamily_Github_AppTests: XCTestCase {
     }
     
     func testExample() {
+        let per1 = StaticPerson(name: "Harshit", age: 23)
+        let family = StaticFamily(familyName: "StaticFamily", members: [per1])
+        family.printData()
+        XCTAssert(true)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

@@ -11,9 +11,9 @@ import StaticFamily
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        let per1 = StaticPerson(name: "Harshit", age: 23)
-        let family = StaticFamily(familyName: "StaticFamily", members: [per1])
-        family.printData()
+//        let per1 = StaticPerson(name: "Harshit", age: 23)
+//        let family = StaticFamily(familyName: "StaticFamily", members: [per1])
+//        family.printData()
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
